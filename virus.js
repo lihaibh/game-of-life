@@ -61,5 +61,6 @@ Virus.prototype.infect = function (membrane) {
 }
 
 module.exports = {
-    Virus
+    Virus,
+    infectedCellBehavior
 };
