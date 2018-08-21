@@ -1,0 +1,21 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "rxjs": "^6.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "ramda": "^0.25.0",
+    "rxjs-compat": "^6.2.2",
+    "underscore": "^1.9.1"
+  }
+}
