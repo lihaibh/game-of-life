@@ -23,7 +23,7 @@ const noop = () => { };
  * It contains a grid of biological cells and provide a way to inspect the evolution
  * of the cells until a satisfied condition about the grid is reached.
  * 
- * @param grid a matrix of biological cells, this is the initial state of the membrane
+ * @param grid a matrix of biological cells, this is the initial state of the membrane @see Grid
  * @param stopPredicate the condition in which the membrane state is satisfied
  */
 function Membrane(grid, stopPredicate) {
