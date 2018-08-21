@@ -1,6 +1,6 @@
 var sinon = require('sinon');
 var { Membrane } = require('./membrane');
-var { Grid } = require('./Grid');
+var { Grid } = require('./grid');
 var { Observable, timer } = require('rxjs');
 
 var should = require('should');
