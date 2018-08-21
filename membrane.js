@@ -28,7 +28,7 @@ const noop = () => { };
  */
 function Membrane(grid, stopPredicate) {
 
-    if (!Grid.prototype.isPrototypeOf(grid)) {
+    if (!Object.prototype.isPrototypeOf(grid)) {
         throw new TypeError('the grid is not of the right type');
     }
 
