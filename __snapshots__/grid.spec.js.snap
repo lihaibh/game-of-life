@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid creation should fail when providing an invalid seed by the length 1`] = `"the seed is invalid"`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 1`] = `
+Array [
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  undefined,
+  undefined,
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 2`] = `
+Array [
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 3`] = `
+Array [
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 4`] = `
+Array [
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 5`] = `
+Array [
+  undefined,
+  undefined,
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 6`] = `
+Array [
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  undefined,
+  undefined,
+]
+`;
+
+exports[`Grid neighbors should return an array of 8 cell neighbors 7`] = `
+Array [
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  Object {
+    "reducer": [Function],
+    "state": Object {
+      "alive": true,
+    },
+  },
+  undefined,
+  undefined,
+  undefined,
+  undefined,
+]
+`;
