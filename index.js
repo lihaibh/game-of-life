@@ -50,6 +50,7 @@ var pipeGrid2Stdout = membrane.state$(getGrid)
     .map(grid => grid.flat())
     // get the alive state of each cell
     .map(R.map(getAlive))
+    .map((isAlive) => isAlive ? 1 : 0)
     // display to the console
     .subscribe(console.log);
 
