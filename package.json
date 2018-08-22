@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "jest": "jest",
-    "test": "npm run jest -- --verbose --coverage",
+    "test": "npm run jest -- --verbose --coverage --detectOpenHandles",
     "test.inspect": "node --inspect-brk=0 ./node_modules/jest/bin/jest.js --runInBand --no-cache --coverage",
     "start": "node index.js"
   },
