@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Membrane should fail when trying to create a membrane with invalid stopPredicate 1`] = `"the predicate is not in the right format"`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 1`] = `
+Object {
+  "generations": 0,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 2`] = `
+Object {
+  "generations": 1,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 3`] = `
+Object {
+  "generations": 2,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 4`] = `
+Object {
+  "generations": 3,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 5`] = `
+Object {
+  "generations": 4,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 6`] = `
+Object {
+  "generations": 5,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Membrane state$ should cast new grid states until a satisfied condition 7`] = `
+Object {
+  "generations": 6,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;

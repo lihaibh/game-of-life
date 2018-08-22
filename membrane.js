@@ -23,12 +23,12 @@ const noop = () => { };
  * It contains a grid of biological cells and provide a way to inspect the evolution
  * of the cells until a satisfied condition about the grid is reached.
  * 
- * @param grid a matrix of biological cells, this is the initial state of the membrane
+ * @param grid a matrix of biological cells, this is the initial state of the membrane @see Grid
  * @param stopPredicate the condition in which the membrane state is satisfied
  */
 function Membrane(grid, stopPredicate) {
 
-    if (!Grid.prototype.isPrototypeOf(grid)) {
+    if (!Object.prototype.isPrototypeOf(grid)) {
         throw new TypeError('the grid is not of the right type');
     }
 
@@ -57,12 +57,12 @@ function reducer(state) {
 
     // calculate the next state of the cells inside the membrane
     flatGrid.map((cell, index) =>
-            // invoke the reduce function of the cell, get its next transformation
-            cell.reduce(state.grid.neighbors(index))
-        ).forEach((nextCellState, index)=> {
-            // it's necessary to replace all the cells at once
-            flatGrid[index].state = nextCellState;
-        });
+        // invoke the reduce function of the cell, get its next transformation
+        cell.reduce(state.grid.neighbors(index))
+    ).forEach((nextCellState, index) => {
+        // it's necessary to replace all the cells at once
+        flatGrid[index].state = nextCellState;
+    });
 
     // TODO: the reduce function of a cell might be asynchronous, 
     // await for all the cells to complete their transformation
@@ -91,7 +91,6 @@ Membrane.prototype.state$ = function (mapper) {
  * start the game by running the cycle of life and death inside the membrane area.
  */
 Membrane.prototype.run = function () {
-
     // Create a side effect that calculates the generations on every change
     var membraneTransformation = this.state$()
         // stop generating new states by the stop condition

@@ -39,8 +39,6 @@ var infectionAfterGenerations = R.pipe(getGenerations, R.equals(infectAfter));
 // Create a membrane and track it's state
 var membrane = new Membrane(Grid.create(width, height, seed), biggerThanMaxGenerations);
 
-var { BehaviorSubject } = require('rxjs');
-
 // listen to changes in the grid and after specific amount of generations activate the virus
 var virus = new Virus(infectionAfterGenerations);
 virus.infect(membrane);

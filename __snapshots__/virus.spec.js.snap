@@ -1,0 +1,729 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 1`] = `
+Object {
+  "generations": 0,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 2`] = `
+Object {
+  "generations": 1,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 3`] = `
+Object {
+  "generations": 2,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 4`] = `
+Object {
+  "generations": 3,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 5`] = `
+Object {
+  "generations": 4,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 6`] = `
+Object {
+  "generations": 5,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should infect a membrane by changing it's cells behavior when the virus has the right conditions to spread 7`] = `
+Object {
+  "generations": 6,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 1`] = `
+Object {
+  "generations": 0,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 2`] = `
+Object {
+  "generations": 1,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 3`] = `
+Object {
+  "generations": 2,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 4`] = `
+Object {
+  "generations": 3,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 5`] = `
+Object {
+  "generations": 4,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 6`] = `
+Object {
+  "generations": 5,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;
+
+exports[`Virus should not infect a membrane if it doesnt have the right conditions 7`] = `
+Object {
+  "generations": 6,
+  "grid": Grid {
+    "height": 2,
+    "matrix": Array [
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+      ],
+      Array [
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": false,
+          },
+        },
+        Object {
+          "reducer": [Function],
+          "state": Object {
+            "alive": true,
+          },
+        },
+      ],
+    ],
+    "width": 3,
+  },
+}
+`;

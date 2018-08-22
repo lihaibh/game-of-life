@@ -8,16 +8,17 @@ var { select } = require('./utils');
  */
 function Cell(alive, reducer) {
     this.state = createCellState(Boolean(alive));
+    this.reducer = reducer;
 
     // make sure when reduce function is changed the result of the reduce function 
     Object.defineProperty(this, 'reduce', {
         get() {
             return function (neighbors) {
-                return reducer(this.state, neighbors)
+                return this.reducer(this.state, neighbors)
             };
         },
         set(newReducer) {
-            reducer = newReducer;
+            this.reducer = newReducer;
         },
         configurable: true
     });

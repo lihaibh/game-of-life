@@ -4,13 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest",
+    "test": "npm run jest -- --verbose --coverage",
+    "test.inspect": "node --inspect-brk=0 ./node_modules/jest/bin/jest.js --runInBand --no-cache --coverage",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment": "node",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?)$",
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "devDependencies": {
     "jest": "^23.5.0",
-    "rxjs": "^6.2.2"
+    "rxjs": "^6.2.2",
+    "should": "^13.2.3",
+    "sinon": "^6.1.5"
   },
   "dependencies": {
     "lodash": "^4.17.10",

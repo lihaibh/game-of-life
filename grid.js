@@ -127,6 +127,8 @@ function cellReducer(state, neighbors) {
 };
 
 module.exports = {
+    cellReducer,
     Grid,
-    singleLiveNeighbor
+    singleLiveNeighbor,
+    noHorizontalOrVerticalLiveNeighbors
 };
